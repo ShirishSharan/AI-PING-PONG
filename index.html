@@ -16,7 +16,7 @@
     <center>
         
             <body background="b.jpg">
-                <div class = "btn btn-warning" id = "header_div">AI PING PONG GAME🏓<span><button data-toggle = "modal" data-target = "#myModal" class = "btn btn-primary" id = "instruction_btn">Instructions</button></span></div>
+                <div class = "btn btn-primary" id = "header_div">AI PING PONG GAME🏓<span><button data-toggle = "modal" data-target = "#myModal" class = "btn btn-primary" id = "instruction_btn">Instructions</button></span></div>
                 
                 <div id = "myModal" class = "modal fade">
                     <div id class = "modal-dialog">
@@ -26,10 +26,19 @@
                                 <h3 id = "instruction-text">Instructions📑</h3>
                                 </div>
                                 <div class = "modal-body">
-                                    
-                                        <img id = "instruction-image1" src ="instructions.gif"></span>
+                                    <ol>
+                                        <li>First keep your laptop screen straight.Then Move yourself approximately 3-4 feet away from the laptop.</li>
+                           
+                           <li>Move your right wrist up and down and you see a red dot appearing on your right wrist.</li>
+                           <li>Press the Play button .The red paddel is your paddel, you can control it from your right wrist.</li>
+                           
+                                           <br>
+                                           <label>Below are the images shown for your reference</label>
+                                           <br>
+                                        <img class = "instruction-image1" src ="rightarm.png"><img class = "instruction-image" src ="fullarm.png"><span></span>
                                         
-                                       
+                                        
+                                    </ol>
                                     </div>
                                     </div>
                                     </div>
@@ -46,7 +55,7 @@
 <button id = "game_status_btn" class = "btn btn-warning"></button>
 <br>
 <br>
-<button onclick="restart()" class="btn btn-danger" id="restart">Restart🔃</button>
+<button onclick="restart()" class="btn btn-danger" id="restart">Restart</button>
 
 </center>
         <script src="main.js"></script>
